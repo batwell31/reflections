@@ -1,7 +1,45 @@
 1) What happens when you initialize a repository? Why do you need to do it?
     
-    It puts a .git folder in my directory.
-    This allows me to put commits, and eventually be able to record its history.
-    I'm also assuming that you need to do this to be able to share your work with other people!  
+        It puts a .git folder in my directory.
+        This allows me to put commits, and eventually be able to record its history.
+        I'm also assuming that you need to do this to be able to share your work with other people!  
 
-2)
+2) How can you use the staging area to make sure you have one commit per logical change?
+
+        You can use git status to check the files that are on the staging area to make sure it's all the same.  Also I 
+        do belive you can use git diff --staged to check changes to files in the staged area!
+
+3) What are some situations when branches would be helpful in keeping your history organized? How would branches help?
+
+        If I wanted to make different difficulties of a game.  I could use branches to keep different versions of a game.
+        I could have experimental branches test a new idea out.  I could use different branches for to make the game work
+        for different languages.
+
+ 4)  How do the diagrams help you visualize the branch structure?
+
+        It really helps layout exactly what commits can be reaches, and helps you understand the detatched head warning.
+
+ 5) What is the result of merging two branches together? Why do we represent it in the diagram the way we do?
+
+        You end up with a master branch with all the commits that were added on.
+        The diagram is represented that way because it is an accurate representation of what happens during the merge.
+        It also helps you understand what commits are reachable, and where.
+
+6) What are the pros and cons of Git’s automatic merging vs. always doing merges manually?
+
+        Pros
+        - Automatic merg: It's easier, takes less time.
+        
+        Cons 
+        -  Automatic merg : Obviously can lead to more mistakes and bugs.
+
+        Pros 
+        - Manually merg: It's more efficent, and you have less bugs.  You get to decide what code you, or your
+        team want to decide upon.  It would achieve your goals more cleanly.
+
+        Cons 
+        - Manually merg: Obviously it can be tedius, and it can seem like obvious decisions.  It 
+        takes extra time.  You have to actually look at, and fix your own code.  Makes you think, and not just
+        rely on a mindless state of mind.
+
+    
