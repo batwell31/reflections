@@ -22,3 +22,7 @@
               if you want to make a different version of the same game.  You can create a different branch.  The main branch
               is called master.  You have to manually make new branches.  if a branch gets deleted you lose the commits unless
               they are obtainable through another branch.
+
+4) What is the benefit of having a copy of the last known state of the remote stored locally?  
+
+        You can work on it offline, and see all the changes that were made.  Also you could make your own changes.       
