@@ -32,4 +32,10 @@
         I guess you could email eachother a ZIP file of the project you were working on, and share it that way.
         It would probably be easier to just send a file, and be done with it.
         In terms of it being harder, I suppose that it would be harder to merge those changes, and keep track of bugs.
-        Honestly, I'm not exactly sure what I would use in place of Git, or GitHub.
+
+6) When would you want to make changes in a separate branch rather than directly in master? 
+   What benefits does each approach have?
+  
+        If you were wanting to make a pull request, or you wanted to make changes without messing up the master.
+        If someone wanted to merge into a pull request they would want to see how you resolved a problem, and decide
+        if they would want to merge their master branch into your branch.
