@@ -8,3 +8,17 @@
 
         Doing it manually gives you more control, and would cut down on Git making mistakes, or 
         errors, or bugs.
+
+3) Describe the differences between forks, clones, and branches. When would you use one instead of another?
+
+        Forks:
+            - are made when you clone a repository from github to your github acount.
+
+        Clones:
+            - are made when you clone a repository from github, or off of a local repository to your local repository.
+
+        Branches:
+            - branches navigate through your project, and can even be merged.  They can be for experimental use, or
+              if you want to make a different version of the same game.  You can create a different branch.  The main branch
+              is called master.  You have to manually make new branches.  if a branch gets deleted you lose the commits unless
+              they are obtainable through another branch.
