@@ -2,3 +2,9 @@
 
     You would want to make it remote if you want to share your work, and get feedback.  
     Also, anytime you're in a group project it would need to be remote.
+
+2) Why might you want to always pull changes manually rather than having Git automatically 
+   stay up-to-date with your remote repository?
+
+        Doing it manually gives you more control, and would cut down on Git making mistakes, or 
+        errors, or bugs.
