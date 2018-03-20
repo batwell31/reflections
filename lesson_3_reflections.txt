@@ -25,4 +25,11 @@
 
 4) What is the benefit of having a copy of the last known state of the remote stored locally?  
 
-        You can work on it offline, and see all the changes that were made.  Also you could make your own changes.       
+        You can work on it offline, and see all the changes that were made.  Also you could make your own changes.
+
+5) How would you collaborate without using Git or GitHub? What would be easier, and what would be harder?
+
+        I guess you could email eachother a ZIP file of the project you were working on, and share it that way.
+        It would probably be easier to just send a file, and be done with it.
+        In terms of it being harder, I suppose that it would be harder to merge those changes, and keep track of bugs.
+        Honestly, I'm not exactly sure what I would use in place of Git, or GitHub.
